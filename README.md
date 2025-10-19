@@ -48,8 +48,9 @@ pip uninstall django-auth-jwks
    ```python
    AUTH_JWKS = {
         "ISSUER": "https://example.com",
-        "JWKS_URI": "https://example.com/o/.well-known/jwks.json",
+        "JWKS_ENDPOINT": "/o/.well-known/jwks.json",
         "AUDIENCE": "example-service",
+        "CACHE_TTL": 300,
     }
    ```
 
