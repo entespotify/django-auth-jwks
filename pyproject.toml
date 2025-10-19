@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-auth-jwks"
-version = "1.0.0"
+version = "1.0.1"
 description = "Reusable Django library for JWT verification using JWKS with caching"
 authors = [{name = "Ankit"}]
 license = "MIT"

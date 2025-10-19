@@ -2,10 +2,9 @@ from django.conf import settings
 
 DEFAULTS = {
     "ISSUER": None,
-    "JWKS_URI": None,
+    "JWKS_ENDPOINT": "/o/.well-known/jwks.json",
     "AUDIENCE": None,
     "CACHE_TTL": 300,
-    "CLOCK_SKEW": 60,
 }
 
 def get_setting(name):
